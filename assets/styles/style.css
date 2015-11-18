@@ -11,14 +11,17 @@ header {
 
 }
 
+header a {
+	text-decoration: none;
+}
+
 h1 {
 	font-family: 'Lobster', serif;
 	text-decoration: none;
-	cursor: default;
+	/*cursor: default;*/
 	font-size: 50px;
 	color: black;
-/*	color: #7A8692;*/
-	font-size: 60px;
+	font-size: 80px;
 	padding-bottom: 30px;
 }
 
@@ -29,7 +32,6 @@ h1 {
 	padding-bottom: 10px;
 	padding-left: 25px;
 	margin-left: -100px;
-	margin-right: -100px;
 }
 
 nav ul {
@@ -72,16 +74,29 @@ div.parallax-container {
 	z-index: -1;
 }
 
-/*FIX IMAGE SIZE SO DOESNT SCROLL RIGHT*/
-.parallax img {
-	/*position: absolute;*/
-	bottom: 0;
-	min-width: 100%;
-/*	min-height: 100%;*/
-/*	margin-top: -17px;
-	margin-left: -20px;*/
-	display: block;
+.parallax1 {
+	background-image: url(
+		"http://www.publicdomainpictures.net/pictures/130000/nahled/fine-green-background-pattern.jpg"
+		);
+	height: 70vh;
+	text-indent: -9999px;
 	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	box-shadow: inset 0 0 1em #111;
+}
+
+.parallax2 {
+	background-image: url(
+		"http://www.mosaicartsource.com/Assets/html/gallery/sonia/sonia%20king%20mosaic%20spinoff.jpg"
+		);
+	height: 70vh;
+	text-indent: -9999px;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	box-shadow: inset 0 0 1em #111;
+
 }
 
 .section-white {
