@@ -1,5 +1,29 @@
-#map {
-	width: 500px;
-	height: 400px;
-	background-color: #CCC;
+header {
+	background-color: white;
+	width: 100%;
+	margin-left: -50px;
+	margin-top: -50px;
+	margin-right: -200px;
+	margin-bottom: -50px;
+	padding-left: 60px;
+	padding-top: 20px;
+	text-decoration: none;
+}
+
+.page-header {
+	border-bottom: none;
+}
+
+header a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Lobster', serif;
+	text-decoration: none;
+	/*cursor: default;*/
+	font-size: 50px;
+	color: black;
+	font-size: 80px;
+	padding-bottom: 30px;
 }
