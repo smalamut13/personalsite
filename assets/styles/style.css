@@ -1,0 +1,112 @@
+header {
+	background-color: white;
+	width: 100%;
+	margin-left: -50px;
+	margin-top: -50px;
+	margin-right: -200px;
+	margin-bottom: -50px;
+	padding-left: 60px;
+	padding-top: 20px;
+	text-decoration: none;
+
+}
+
+h1 {
+	font-family: 'Lobster', serif;
+	text-decoration: none;
+	cursor: default;
+	font-size: 50px;
+	color: black;
+/*	color: #7A8692;*/
+	font-size: 60px;
+	padding-bottom: 30px;
+}
+
+.top {
+	background-color: #7A8692;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	margin-left: -100px;
+	margin-right: -100px;
+}
+
+nav ul {
+	list-style: none;
+/*	border-bottom: 1px solid black;*/
+	border-width: 3px;
+	text-align: center;
+	vertical-align: baseline;
+	background-color: #7A8692;
+	color: white;
+	padding: 10px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+nav ul a {
+	font-size: 1rem;
+	color: white;
+	display: block;
+	padding: 0 15px;
+}
+
+div.parallax-container {
+	height: 560px;
+	position: relative;
+/*	overflow: hidden;*/
+}
+
+.parallax {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+/*FIX IMAGE SIZE SO DOESNT SCROLL RIGHT*/
+.parallax img {
+	/*position: absolute;*/
+	bottom: 0;
+	min-width: 100%;
+/*	min-height: 100%;*/
+/*	margin-top: -17px;
+	margin-left: -20px;*/
+	display: block;
+	background-attachment: fixed;
+}
+
+.section-white {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: block;
+	box-sizing: inherit;
+	background-color: #FFFFFF;
+}
+
+/*.white {
+	background-color: #FFFFFF;
+}*/
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.about {
+	text-align: center;
+}
+
+.aboutwords {
+	text-align: center;
+}
+

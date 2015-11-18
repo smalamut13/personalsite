@@ -1,0 +1,62 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class*="entypo-"]:before {
+	font-family: "entypo", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#social {
+	left: 0;
+	position: fixed;
+	top: 150px;
+}
+
+#social a {
+	color: #fff;
+    display: block;
+    height: 35px;
+    font: 16px "Open Sans", sans-serif;
+    line-height: 35px;
+    position: relative;
+    text-align: center;
+    width: 35px;
+    background: #333;
+}
+
+#social a span {
+	line-height: 35px;
+	left: -120px;
+	position: absolute;
+	text-align: center;
+	width: 120px;
+}
+
+#social a:hover span {
+	left: 100%;
+}
+
+#social a[class*="facebook"],
+#social a[class*="facebook"]:hover,
+#social a[class*="facebook"] span {background: #3b5998;}
+
+
+#social a[class*="twitter"],
+#social a[class*="twitter"]:hover,
+#social a[class*="twitter"] span {background: #00aced;}
+
+#social a[class*="instagrem"],
+#social a[class*="instagrem"]:hover,
+#social a[class*="instagrem"] span {background: #517fa4;}
+
+#social a[class*="linkedin"],
+#social a[class*="linkedin"]:hover,
+#social a[class*="linkedin"] span {background: #dd4b39;}
